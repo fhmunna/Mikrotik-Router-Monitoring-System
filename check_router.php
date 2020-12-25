@@ -60,7 +60,7 @@
 								</thead>
 								<tbody>
 									<?php
-										error_reporting(0);
+										error_reporting(1);
 										require "credentials.php";
 										function table_info($title,$value){
 											return "<tr><td><strong>$title</strong></td><td><span class='align-right'>$value</span></td></tr>";
@@ -74,6 +74,8 @@
 
 
 											$data = $result->fetch_assoc();
+											// var_dump($data);
+											// die();
 
 											$data = snmpwalk(long2ip($data['ip']),$_GET['community'],'.1.3.6.1.2.1.1');
 

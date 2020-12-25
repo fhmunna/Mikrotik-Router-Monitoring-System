@@ -36,11 +36,11 @@
 						</div>
 						<div class="panel-body">
 							<ul class='nav nav-pill'>
-								<li class='nav-item'><a class='active' href="http://localhost/index.php">Community</a>
+								<li class='nav-item'><a class='active' href="http://localhost/mkt/index.php">Community</a>
 								</li>
-								<li class='nav-item'><a href="http://localhost/add_community.php">Add Community</a>
+								<li class='nav-item'><a href="http://localhost/mkt/add_community.php">Add Community</a>
 								</li>
-								<li class='nav-item'><a href='http://localhost/search.php'>Search</a>
+								<li class='nav-item'><a href='http://localhost/mkt/search.php'>Search</a>
 								</li>
 
 							</ul>

@@ -164,6 +164,6 @@
 		}
 	}
 
-	$interface = new InterfaceMonitor(new SNMPMonitor('192.168.2.234','ITNH_REMOTE'));
+	$interface = new InterfaceMonitor(new SNMPMonitor('103.122.90.18','public2'));
 	$interface->getPortActiveList();
 ?>

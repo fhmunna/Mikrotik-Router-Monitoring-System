@@ -25,9 +25,9 @@
 							<ul class='nav nav-pill'>
 								<li class='nav-item'><a class='active' href="http://localhost/index.php">Community</a>
 								</li>
-								<li class='nav-item'><a href="http://localhost/add_community.php">Add Community</a>
+								<li class='nav-item'><a href="http://localhost/mkt/add_community.php">Add Community</a>
 								</li>
-								<li class='nav-item'><a href='http://localhost/search.php'>Search</a>
+								<li class='nav-item'><a href='http://localhost/mkt/search.php'>Search</a>
 								</li>
 
 							</ul>
@@ -60,7 +60,7 @@
 									}else{**/
 										while(($data = $result->fetch_assoc())!=NULL){
 											foreach ($data as $key => $value) {
-												$link = "<a class='nav-item' href=http://localhost/check_community.php?community=$value>".$value."</a>";
+												$link = "<a class='nav-item' href=http://localhost/mkt/check_community.php?community=$value>".$value."</a>";
 												$name_table .='<tr><td>'.$link.'</td></tr>';
 											}
 										}
